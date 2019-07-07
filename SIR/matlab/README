@@ -1,1 +1,18 @@
-stat and plot
+Functions:
+1. SIT_demo: simulate SIR model in a network.
+2. LT_demo: simulate Linear Threshold model in a network.
+3. stat_all: stat how many users have received, retweeted, retweet probability and transmission probability for each meme.
+4. plot_ret_cnt: plot the distribution of retweet times for each meme.
+5. plot_receive: plot the distribution of received times for each meme.
+6. plot_ret_rcv_cnt: plot the distribution of received times before user retweet for each meme.
+7. plot_beta_x_clean: plot transmission probability of each meme.
+8. plot_beta_x_pattern: plot beta_1 v.s. beta_x.
+9. plot_ret_x: plot retweet probability of each meme.
+10. fit_a_b: fitting empirical data by beta_x=a*exp(-b*x)
+11. fit_beta_x: fitting empirical data by beta_x=beta_1+sigma(a*exp(-b*x))
+12. our_model: beta_x=a*exp(-b*x)
+13. plot_para_dist: plot parameter a and b
+14. plot_para_vs_paraX: plot the relationships among ki, ko, beta_x, a, b, repost_time and survival_time.
+15. remove_noise: remove some noise when calculate beta_x.
+16: stat_survivaltime: stat the period from start to end for each meme.
+17: stat_volume: stat the number of retweet every 10 mins for each meme.
