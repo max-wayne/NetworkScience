@@ -1,1 +1,17 @@
 Can we predict the scale of information on online social network?
+Functions:
+1. create_ER_network: create ER network by given the size of network n and average degree d.
+2. create_ER_network_with1super: create ER network with a super node, which means its number
+    of neibors is proportion to the size of network n.
+3. create_SF_network: create scale free network by given n, k_min, k_max, gamma.
+4. configuration_network_by_cumPk:  generate network A and degree list by given cum Pk and n.
+5. configuration_network: generate network A by given degree list.
+6. bond_percolation: simulate bond percolation in a network A given p.
+7. site_percolation: simulate site percolation in a network A give p.
+8. giant_component: calculate pinf for a network A after bond/site percolation.
+9. giant_component_dist: calculate the distribution of the size of component after percolation.
+10. giant_component_dist_node: calculate the size of component for each node it belongs to.
+11. calc_Pinf_dir: calculate pinf for a directed network A, include gscc, second gscc and gout.
+12. plfit: fitting alpha given data x. x should be like a straight line in loglog.
+13.plplot: plot data x and alpha.
+14. belief_propagation: simulate belief propagation in a network A.
