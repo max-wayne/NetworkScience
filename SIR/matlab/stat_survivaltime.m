@@ -1,4 +1,4 @@
-function stat_survivalTime(f, trunc)
+function stat_survivaltime(f, trunc)
 %% stat each info SurvivalTime.
 file = strcat('D:/double_check/info/filename_', f, '.txt');
 fid = fopen(file, 'r'); T = [];
