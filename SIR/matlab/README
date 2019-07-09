@@ -16,3 +16,6 @@ Functions:
 15. remove_noise: remove some noise when calculate beta_x.
 16: stat_survivaltime: stat the period from start to end for each meme.
 17: stat_volume: stat the number of retweet every 10 mins for each meme.
+18: plot_k_dist: plot the distribution of friends and followers in Weibo.
+19. plot_empirical_theta: supposed LT model.
+20. plot_theory_theta: supposed LT model, plot theory line in Beijing.
