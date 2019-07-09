@@ -1,0 +1,16 @@
+clear; clc;
+figure; hold on;
+load('./data/follow_m_f_fitstep.txt'); a=follow_m_f_fitstep;
+x=a(:,1); m=a(:,2); f=a(:,3);
+plot(x(1:102), m(1:102)./f(1:102), '-', 'LineWidth', 3, 'Color', [0.5, 0.5, 0.5]);
+plot(x(102:107), m(102:107)./f(102:107), 'b-', 'LineWidth', 3);
+plot(x(107:199), m(107:199)./f(107:199), '-', 'LineWidth', 3, 'Color', [0.5, 0.5, 0.5]);
+plot(x(199:206), m(199:206)./f(199:206), 'b-', 'LineWidth', 3);
+plot(x(206:end), m(206:end)./f(206:end), '-', 'LineWidth', 3, 'Color', [0.5, 0.5, 0.5]);
+% plot(x, m./f, '-', 'LineWidth', 3, 'Color', [0.5, 0.5, 0.5]);
+xlabel('Number of friends');
+ylabel('Male/Female');
+xlim([50 300]);
+set(gcf,'color','white');
+set(gcf, 'Position', [500 300 800 500]);
+set(gca, 'box', 'on', 'LineWidth', 1.5, 'FontName', 'Times New Roman', 'FontSize',20);
